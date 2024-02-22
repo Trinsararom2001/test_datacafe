@@ -30,8 +30,8 @@ st.markdown(
 # Center-aligned title
 st.markdown("<h1 class='title'>Dashboard For Food retails</h1>", unsafe_allow_html=True)
 
-path_mean = r'C:\Users\kan43\Downloads\data test from data cafe-20240221T180350Z-001\data test from data cafe\Data Cafe Test Before Interview\df_mean'
-path_sum = r'C:\Users\kan43\Downloads\data test from data cafe-20240221T180350Z-001\data test from data cafe\Data Cafe Test Before Interview\df_sum'
+path_mean = 'df_mean.csv'
+path_sum = 'df_sum.csv'
 
 df_mean = pd.read_csv(path_mean)
 df_sum = pd.read_csv(path_sum)
